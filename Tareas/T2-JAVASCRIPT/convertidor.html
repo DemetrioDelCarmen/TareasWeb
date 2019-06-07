@@ -5,11 +5,15 @@
     <meta charset="utf-8">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon"  type="image/png" href="img/celsius.png">
     <script src="js/convertidor.js"></script>
     <title>Convertidor</title>
   </head>
   <body>
 
+        <div style="text-align: center; color:dimgray; font-family: monospace; padding-top: 0; background-color: rgb(46, 46, 46)">
+                <a href="index.html" style="text-decoration: none; color:#FFC107"><h1>Necesitas un formulario? da click aquí</h1></a>
+             </div>
 
         <div style="text-align: center; color:dimgray; font-family: monospace; padding-top: 3rem">
                 <h1>Convertidor de temperaturas</h1>
@@ -19,40 +23,42 @@
 
             <form>
 
-                    <div class="container" style="text-align: center">
+                    <div class="container" style="text-align: center; width: 45%">
 
                             <div class="form-group">
-                                       <label>Grados</label>
-                                       <input type="number" class="form-control" id="gradosAConvertir" placeholder="Escribe los grados">
+                                       <label>Temperatura</label>
+                                       <input type="number" class="form-control" id="gradosAConvertir" placeholder="Escribe la temperatura a convertir">
                                        
                            </div>
                            <div class="input-group mb-3">
                                    <div class="input-group-prepend">
                                      <label class="input-group-text" for="inputGroupSelect01">De</label>
                                    </div>
-                                   <select class="custom-select" id="inputGroupSelect01">
+                                   <select class="custom-select" id="temperatura">
                                      <option selected>Selecciona...</option>
-                                     <option value="1">Celcius</option>
-                                     <option value="2">Faringed</option>
-                                     <option value="3">Centigrados</option>
+                                     <option value="1">Celsius</option>
+                                     <option value="2">Fahrenheit</option>
+                                     <option value="3">Kelvin</option>
                                    </select>
                                  </div>
            
            
            
-                           
+                           <!--  inicio de lista de donde vamos a convertir -->
                            <div class="input-group mb-3">
                                    <div class="input-group-prepend">
                                      <label class="input-group-text" for="inputGroupSelect01">A:</label>
                                    </div>
-                                   <select class="custom-select" id="inputGroupSelect01">
+                                   <select class="custom-select" id="listaGradosParaConvertir">
                                      <option selected>Selecciona...</option>
-                                     <option value="1">Celcius</option>
-                                     <option value="2">Faringed</option>
-                                     <option value="3">Centigrados</option>
+                                     <option value="1.1">Celsius</option>
+                                     <option value="2.2">Fahrenheit</option>
+                                     <option value="3.3">Kelvin</option>
                                    </select>
+
+                                   
                                  </div>
-           
+                            <!--  inicio de lista fin de donde vamos a convertir -->      
                                  <button type="button" class="btn btn-warning" id="convertir"><Strong>Convertir</Strong></button>
            
                                  <div>
@@ -61,7 +67,7 @@
            
                                  </div>
                                  
-                                 <div class="container">
+                                 <div class="container" id="container">
            
                                  </div>
            
