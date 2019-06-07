@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clase 4</title>
+
+    <script>
+        localStorage.setItem('valor', 12345);
+       
+        
+    </script>
+
+<script>
+                function draw() {
+                        var canvas = document.getElementById('canvas');
+        if (canvas.getContext) {
+                            var ctx = canvas.getContext('2d');
+                            ctx.fillRect(25, 25, 100, 100);
+                            ctx.clearRect(45, 45, 60, 60);
+                            ctx.strokeRect(50, 50, 50, 50);
+                        }
+                    }
+
+                    addEventListener("DOMContentLoaded", draw, false);
+    
+
+</script>
+        <script>
+                var watchID = navigator.geolocation.watchPosition(
+                (position) => alert(position.coords.latitude));
+
+                localStorage.setItem('localitation',watchID)
+        </script>
+
+
+            lasca
+
+</head>
+<body>
+
+    <nav>
+        <a href="">Item 1</a>
+        <a href="">Item 2</a>
+        <a href="">Item 3</a>
+        <a href="">Item 4</a>
+    </nav>
+
+    <figure>
+        <img src="http://www.utez.edu.mx/images/2016/ago/logos_UT.png"
+        
+        alt="Logo de UTyP"
+        width="250px;"/>
+        
+        <figcaption>Fig1. Logo de UTyP</figcaption>
+        </figure>
+
+        <audio src="https://shareimages.page.link/audio" controls>
+            Your browser does not suport the <code>audio</code> element
+        </audio>
+
+           
+    <canvas id="canvas"></canvas>    
+
+
+</body> 
+
+</html>

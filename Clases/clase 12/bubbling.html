@@ -1,0 +1,21 @@
+<style>
+        form, div, p{
+        border:solid blue 1px;
+        padding:2px;
+        }
+        </style>
+        <form id="form">Formulario
+        <div id="externo">Texto del DIV
+        
+        <p id="interno">Texto del Párrafo</p>
+        
+        </div>
+        </form>
+        
+        <script>
+        var p = document.querySelector("p#interno");
+        var div = document.querySelector("div#externo");
+        p.addEventListener("click", () => alert("Click sobre el párrafo"), true);
+        div.addEventListener("click", () => alert("Click sobre el div"), true);
+
+        </script>

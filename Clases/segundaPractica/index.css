@@ -1,0 +1,23 @@
+html, body{
+    padding:0;
+    margin: 0;
+    font-family:Helvetica;
+}
+
+.paises{
+    text-align: center;
+}
+.paises img{
+
+            max-width: 50%;
+}
+
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #BBE32A;
+    transition: .3s;
+}

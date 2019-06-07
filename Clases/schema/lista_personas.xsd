@@ -1,0 +1,9 @@
+<?xml version="1.0">
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+<xs:element name="Persona">
+        <xs:complexType>
+            <xs:element name = "nombre" type= "xs:string">
+            <xs:element name = "fecha_nacimiento" type = "xs:dateTime">
+            <xs:element name = "genero" type = "xs:string">
+        </xs:element>
+</xs:element>
