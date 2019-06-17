@@ -1,0 +1,29 @@
+div+p:first-letter{
+    color: rgb(148, 1, 1);
+
+}
+
+p{
+    font-size: 2em
+}
+.x{
+    color:green;
+}
+#x{
+    color:peru;
+}
+
+div[id="abc"]{
+    color:orange;
+}
+
+div[class~="e"]{
+    color: blueviolet
+}
+
+
+
+input:focus{
+    border: 4px rgb(155, 0, 90) dashed;
+    transition: .9s;
+}

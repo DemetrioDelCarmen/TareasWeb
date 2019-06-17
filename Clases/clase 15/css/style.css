@@ -1,0 +1,19 @@
+body{
+    font-family: mifuente;
+}
+
+@font-face{
+    font-family:mifuente;
+    src: url(../resoruces/JosefinSans-SemiBold.ttf);
+}
+
+div#contenedor{
+    border: 10px solid red;
+   /* margin: 20px 40px 80px 120px;*/
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    margin-left:120px;
+
+}
+

@@ -1,0 +1,23 @@
+h1,h2,h3,h4,h5,h6{
+    color: #3498DB;
+}
+
+#encabezados{
+    margin-left:40px;
+}
+
+
+div>label{
+    font-weight: bold;
+    color:forestgreen;
+}
+
+div>input{
+    color:red;
+}
+div+a:hover{
+    text-decoration: none;
+    font-size:10rem;
+    transition: .9s;
+    
+}

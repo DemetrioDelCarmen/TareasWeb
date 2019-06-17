@@ -1,0 +1,58 @@
+html body {
+    margin: 0px;
+    padding: 0px; 
+    font-family: 'Arimo', sans-serif;
+    
+    
+}
+
+p{
+    font-size: 17px;
+}
+
+.sectionNav{
+    padding-top: 2em;
+    background-color: #2B2B2B;
+    text-align: center;
+
+}
+.sectionNav img {
+    max-width: 20%;
+    
+}
+#fgCaptionNav{
+    color:white;
+    font-size: 2rem;
+    
+    text-transform: uppercase;
+}
+
+.sectionDescribe{
+    margin: 1em;
+    
+}
+.sectionDescribe p {
+    box-sizing: border-box;
+    max-width: 42rem;
+    margin-bottom: 24px;
+}
+
+
+.element{
+    margin: 1rem;
+    border-top: 3px solid #FF9344;
+    font-size:20px; 
+   
+}
+
+
+.boxDescription{
+    width: 34rem;
+    background: white;
+
+    -webkit-box-shadow: 0px 9px 31px 0px rgba(168,168,168,1);
+    -moz-box-shadow: 0px 9px 31px 0px rgba(168,168,168,1);
+    box-shadow: 0px 9px 31px 0px rgba(168,168,168,1);
+
+    border-radius: 10px;
+}

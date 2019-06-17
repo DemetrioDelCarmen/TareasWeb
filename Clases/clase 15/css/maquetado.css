@@ -1,0 +1,15 @@
+body{
+    font-family: mifuente;
+}
+header{
+    background: #7D3C98;
+    height: 80px;
+    color:white;
+
+}
+
+@font-face{
+    font-family: mifuente;
+    src: url(../resoruces/JosefinSans-SemiBold.ttf)
+}
+
