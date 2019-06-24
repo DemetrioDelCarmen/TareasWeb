@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="resources/1200px-Oxxo_Logo.svg.png">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Punto de Venta</title>
+</head>
+<body>
+        <div class="container mt-4 mb-4">
+
+            <table class="tableItems" id="tableItems"> 
+                <thead>
+                    <th class="thm" >Código</th>
+                    <th class="thm">Nombre</th>
+                    <th class="thm">Cantidad</th>
+                    <th class="thm">Precio</th>
+                    <th class="thm">Total</th>
+                    <th class="thm">Agregar</th>
+                    <th class="thm">Eliminar</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                           
+                                <input type="text" class="form-control m-2" id="itemCodigo">
+                        </td>
+                        <td>
+                            
+                                    <input type="text" class="form-control m-2" id="itemNombre">
+                            
+                        </td>
+                        <td>
+                            
+                                <input type="number" min="1" max="1000" class="form-control m-2" id="itemCantidad">
+                            
+                        </td>
+                        <td>
+                           
+                                <input type="number" class="form-control m-2" id="itemPrecio">
+                          
+                        </td>
+                        <td>                            
+                                <input type="number" class="form-control m-2" id="inputTotal">
+                        </td>
+                        <td>
+                            
+                                <input type="button" class="btn btn-success m-2"  value="Agregar" id="agregar" > 
+                            
+                        </td>
+                        <td>
+            
+                                <input type="button" class="btn btn-danger m-2" disabled  value="Eliminar" id="eliminar">
+                           
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+   
+
+            <div class="tic">
+                 
+            </div>
+   
+</body>
+</html>

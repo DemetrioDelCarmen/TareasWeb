@@ -1,0 +1,25 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+}
+.tableItems{
+
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.tic{
+    text-align: center;
+    width: 100%;
+    border-style: dotted; 
+  	border-width: 2px; 
+  	border-color: rgb(150, 150, 150); 
+  	background-color: rgb(230, 230, 230); 
+  	font-family: verdana, arial; 
+      font-size: 10pt; 
+      
+      
+}
+
+.thm{
+    padding-left: 1em
+}
