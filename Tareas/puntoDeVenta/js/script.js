@@ -78,8 +78,8 @@ let onReady = () =>{
       
       function deleteItems (){
         
-            var index, table = document.querySelector('table');
-            for(var i = 1; i < table.rows.length; i++)
+            let index, table = document.querySelector('table');
+            for(let i = 1; i < table.rows.length; i++)
             {
                 table.rows[i].cells[6].onclick = function()
                 {
